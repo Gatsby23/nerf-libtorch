@@ -1,0 +1,25 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 26,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "default",
+            "hidden": true
+        },
+        {
+            "name": "debug",
+            "inherits": "default"
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "debug",
+            "configurePreset": "debug",
+            "displayName": "Debug"
+        }
+    ]
+}
